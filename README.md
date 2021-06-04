@@ -66,3 +66,37 @@ body {color: #92a8d1;}
 Set the text color with an RGB value:
 
 body {color: rgb(201, 76, 76);}
+  
+  
+  
+  
+  # CSS reference
+- Use this CSS reference to browse an alphabetical index of all of the standard CSS properties, pseudo-classes, pseudo-elements, data types, functional notations and at-rules. You can also browse key CSS concepts and a list of selectors organized by type. Also included is a brief DOM-CSS / CSSOM reference.
+
+1- Basic rule syntax
+- Style rule syntax
+style-rule ::=
+    selectors-list {
+      properties-list
+    }
+  
+  - Style rule examples
+1- strong {
+  color: red;
+}
+
+2- div.menu-bar li:hover > ul {
+  display: block;
+}
+For a beginner-level introduction to the syntax of selectors, see our guide on CSS Selectors. Be aware that any syntax error in a rule definition invalidates the entire rule. Invalid rules are ignored by the browser. Note that CSS rule definitions are entirely (ASCII) text-based, whereas DOM-CSS / CSSOM (the rule management system) is object-based.
+  
+  # selecotor:
+ # Basic selectors
+Basic selectors are fundamental selectors; these are the most basic selectors that are frequently combined to create other, more complex selectors.
+
+1- Universal selector *, ns|*, *|*, |*
+2- Type selector elementname
+3- Class selector .classname
+4- ID selector #idname
+5- Attribute selector [attr=value]
+  
