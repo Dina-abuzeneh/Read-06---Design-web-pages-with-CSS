@@ -62,7 +62,7 @@ Set the text color with a HEX value:
 
 body {color: #92a8d1;}
   
-  #Example
+  # Example
 Set the text color with an RGB value:
 
 body {color: rgb(201, 76, 76);}
@@ -95,8 +95,38 @@ For a beginner-level introduction to the syntax of selectors, see our guide on C
 Basic selectors are fundamental selectors; these are the most basic selectors that are frequently combined to create other, more complex selectors.
 
 1- Universal selector *, ns|*, *|*, |*
+  
 2- Type selector elementname
+  
 3- Class selector .classname
+  
 4- ID selector #idname
+  
 5- Attribute selector [attr=value]
+  
+  
+ #Combinators
+- Co mbinators are selectors that establish a relationship between two or more simple selectors, such as "A is a child of B" or "A is adjacent to B."
+
+1- Adjacent sibling combinator A + B
+Specifies that the elements selected by both A and B have the same parent and that the element selected by B immediately follows the element selected by A horizontally.
+  
+2- General sibling combinator A ~ B
+Specifies that the elements selected by both A and B share the same parent and that the element selected by A comes before—but not necessarily immediately before—the element selected by B.
+  
+3- Child combinator A > B
+Specifies that the element selected by B is the direct child of the element selected by A.
+  
+4- Descendant combinator A B
+Specifies that the element selected by B is a descendant of the element selected by A, but is not necessarily a direct child.
+  
+5-Column combinator A || B 
+Specifies that the element selected by B is located within the table column specified by A. Elements which span multiple columns are considered to be a member of all of those columns.
+  
+# Pseudo
+-[x] Pseudo classes :
+Specifies a special state of the selected element(s).
+  
+-[x] Pseudo elements ::
+Represents entities that are not included in HTML.
   
