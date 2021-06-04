@@ -50,3 +50,19 @@ The internal style is defined inside the <style> element, inside the head sectio
 An inline style may be used to apply a unique style for a single element.
 
 To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+  
+  
+  
+  **CSS color Property**
+  - CSS Syntax
+- color: color|initial|inherit;
+  
+  # Example
+Set the text color with a HEX value:
+
+body {color: #92a8d1;}
+  
+  #Example
+Set the text color with an RGB value:
+
+body {color: rgb(201, 76, 76);}
